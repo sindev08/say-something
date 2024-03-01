@@ -2,7 +2,7 @@
 import { CoupleCard } from "@/components/Cards/CoupleCard";
 import { useState } from "react";
 
-export default function Pasangan() {
+export default function Page({ params }: { params: { slug: string } }) {
   const [currentContentIndex, setCurrentContentIndex] = useState(0);
 
   const handleNext = () => {
@@ -20,7 +20,12 @@ export default function Pasangan() {
   const currentContent = coupleData[currentContentIndex];
   const isAtBeginning = currentContentIndex === 0;
   const isAtEnd = currentContentIndex === coupleData.length - 1;
-  console.log(currentContent);
+
+  // Membuat salinan array data pasangan
+  const modifiedCoupleData = [...coupleData];
+
+  // Mengubah title pada objek pertama
+  modifiedCoupleData[0].title = `Hai ${params.slug} Sayang!`;
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-tr from-white to-pink-50 xl:p-0 p-4">
