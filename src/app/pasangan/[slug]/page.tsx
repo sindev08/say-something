@@ -25,7 +25,7 @@ export default function Page({ params }: { params: { slug: string } }) {
   const modifiedCoupleData = [...coupleData];
 
   // Mengubah title pada objek pertama
-  modifiedCoupleData[0].title = `Hai ${params.slug} Sayang!`;
+  modifiedCoupleData[0].title = `Hai ${params.slug} Sayang❤️`;
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-tr from-white to-pink-50 xl:p-0 p-4">
