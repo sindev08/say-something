@@ -9,7 +9,7 @@ interface IContentProps {
 
 export const CoupleCard = ({ title, desc, gifName }: IContentProps) => {
   return (
-    <div className="px-6 py-8 bg-white shadow-lg rounded-lg border border-gray-100 flex flex-col max-w-sm min-h-[446px]">
+    <div className="px-6 py-8 bg-white shadow-lg rounded-lg border border-gray-100 flex flex-col xl:w-96 max-w-sm min-h-[446px]">
       <div className="bg-pink-100 w-full h-60 rounded-md flex justify-center items-center">
         <AvatarGif name={gifName} alt={gifName} w={200} h={200} />
       </div>

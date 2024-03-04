@@ -11,7 +11,7 @@ export default function BuatSiapa() {
   };
 
   const handleSaveName = () => {
-    setNickname(`${process.env.NEXT_PUBLIC_BASE_URL}pasangan/${name}`);
+    setNickname(`${process.env.NEXT_PUBLIC_BASE_URL}trend/${name}`);
     setCopySuccess(false); // Reset status copy setiap kali nama disimpan
   };
 
