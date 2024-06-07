@@ -16,7 +16,7 @@ export const CoupleCard = ({ title, desc, gifName }: IContentProps) => {
       {title && <h2 className=" text-xl font-bold mt-6">{title}</h2>}
       {/* <p className="text-sm text-black mt-4">{desc}</p> */}
 
-      <blockquote className="text-base italic font-medium text-left text-gray-900 mt-4">
+      <blockquote className="text-base leading-relaxed font-medium text-left text-gray-900 mt-4">
         <p>&quot;{desc}&quot;</p>
       </blockquote>
     </div>
