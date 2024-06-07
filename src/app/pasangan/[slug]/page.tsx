@@ -104,7 +104,7 @@ const coupleData = [
   {
     title: "Hai Ellsaa Sayang!",
     desc: "Selamat ulang tahun yaa, ya meski udah ngucapin tapi aku anggap ini lebih spesial. Karena ini buatnya ngga gampang, semoga kamuu sukaaa 🥰. Baca pelan-pelan, dan wajib pake headset",
-    gifName: "hi",
+    gifName: "birthday-cake",
   },
   {
     title: "",
@@ -114,41 +114,41 @@ const coupleData = [
   {
     title: "",
     desc: "Sejujurnya lagi aku happy banget bisa deket sama kamu, bisa ngobrol serius, ngobrolin random, gibah dan lain-lain yang bikin hubungan kita makin seruuu!",
-    gifName: "manja",
+    gifName: "salting-brutal",
   },
   {
     title: "",
     desc: "Selama kita jalani hubungan ini, aku ngerasa bersyukur banget ada orang yang mau effort dan ngasih perhatian",
-    gifName: "nangis-dikit",
+    gifName: "pengen-dimanja",
   },
   {
     title: "",
     desc: "Iya emang kita baru jalan setahun kurang, tapi aku ngerasa itu cepet bangeett. Kenapa? karena hari-hariku kerasa cepet aja kalo ngobrol sama kamu.",
-    gifName: "panci",
+    gifName: "wah",
   },
   {
     title: "",
     desc: "Maaf kalo selama ini bawelin kamu, tapi itu bentuk perhatian aku yg mau bawa hungungan ini bisa ketahap selanjutnya",
-    gifName: "pukpuk",
-  },
-  {
-    title: "",
-    desc: "Makasih cantiikk, udah mau jalani hubungan yang hebat ini",
     gifName: "pis",
   },
   {
     title: "",
+    desc: "Makasih cantiikk, udah mau jalani hubungan yang hebat ini",
+    gifName: "mmuuah",
+  },
+  {
+    title: "",
     desc: "Makasih juga udah mau effort, karena jarang banget aku nemuin orang yang kaya kamu",
-    gifName: "cekolah",
+    gifName: "manja",
   },
   {
     title: "",
     desc: "Kita ngelangkah pelan-pelan ya, belajar bareng, kasih tau kalo semisal aku salah, aku juga ngasih tau kalo semisal kamu salah.",
-    gifName: "pukpuk",
+    gifName: "eluselus",
   },
   {
     title: "Pasangan Hebat",
     desc: "Kita tetep jadi pasangan hebat ya😇",
-    gifName: "kiss-bye",
+    gifName: "terlopelope",
   },
 ];
